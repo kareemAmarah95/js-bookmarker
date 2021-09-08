@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <meta name="keywords" content="html css bootstrap" />
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container w-75">
+        <h3 class="text-muted py-3">Bookmarker</h3>
+        <hr>
+      </div>
+    </header>
+    <div class="container w-75 ">
+      
+      <div class="bg-lightgray py-3">
+      
+      
+      <h2 class="text-center py-3">Bookmark your favourite sites</h2>
+      <p class="text-center fw-bold py-2">Site Name</p>
+      <input type="text"  class="form-control w-75 mx-auto" placeholder="Bookmark Name" id="siteName">
+  
+  
+  
+      <p class="text-center fw-bold pt-3">Site URL</p>
+      <input type="text"  class="form-control w-75 mx-auto" placeholder="website URL"  id="siteUrl">
+      <div class="mx-auto d-flex justify-content-center align-items-center">
+      <button type="submit" class="btn btn-primary mt-4 " onclick="addSite()">Submit</button>
+    </div>
+    
+    </div>
+
+      <table class="table">
+        
+        <tbody id="tbody">
+          <div class="py-3 bg-lightgray">
+           
+          </div>
+          
+        </tbody>
+      </table>
+    </div>
+    <footer>
+      <div class="container w-75">
+          <hr>
+          <p class="py-3 text-muted fw-bold">© 2019 Bookmarker Inc.</p>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
